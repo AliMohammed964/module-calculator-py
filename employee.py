@@ -11,7 +11,8 @@ class employee():
         self.phone = input("Enter your phone : ")
 
     def show(self):
-        print('name : ' + self.name + ' // age : ' + " " + str(self.age) + '//Department : ' + self.dept + '//Phone : ' + str(self.phone))
+        print('name : ' + self.name + ' // age : ' + " " + str(
+            self.age) + '//Department : ' + self.dept + '//Phone : ' + str(self.phone))
 
     def compare(self, age):
         if 18 < self.age < 30:
@@ -28,3 +29,5 @@ e1 = employee()
 e1.enterdata()
 e1.show()
 print(e1.compare(e1.age))
+
+
